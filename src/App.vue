@@ -2,13 +2,11 @@
 import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/navbar.vue'
 
+
 </script>
 //Aqui es la prinicipal, donde se manejan las cosas
 <template>
-  <header>
-    <NavBar/>
-
-  </header>
+  <NavBar/>
 
   <RouterView />
 </template>
@@ -19,5 +17,6 @@ a{
 }
 body{
   background-color: #eeeaeb;
+  margin: 0;
 }
 </style>

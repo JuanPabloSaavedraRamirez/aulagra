@@ -61,6 +61,7 @@
         text-align: center;
         height: 100px;
         width: 100%;
+        top: 0;
         background-color: #cad4fa;
         display: flex;
         justify-content: space-between;
