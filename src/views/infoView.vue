@@ -8,7 +8,7 @@
 
   import '../components/style.css';
 
-  // import required modules
+
   import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
   export default {
@@ -49,5 +49,9 @@
 	
   h1{
     text-align: center;
+  }
+
+  img{
+    width: 100px;
   }
 </style>

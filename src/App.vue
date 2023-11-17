@@ -19,4 +19,7 @@ body{
   background-color: #eeeaeb;
   margin: 0;
 }
+h1{
+  text-align: center;
+}
 </style>
