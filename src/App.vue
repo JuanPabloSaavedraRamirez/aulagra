@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/navbar.vue'
+import PieDePagina from './components/PieDePagina.vue';
 
 
 </script>
@@ -8,7 +9,11 @@ import NavBar from './components/navbar.vue'
 <template>
   <NavBar/>
 
-  <RouterView />
+  <div class="body">
+    <RouterView />
+  </div>
+
+  <PieDePagina/>
 </template>
 
 <style>
@@ -22,5 +27,8 @@ body{
 h1{
   text-align: center;
   /* font-family: ; */
+}
+.body{
+  min-height: calc(100dvh - 350px);
 }
 </style>
