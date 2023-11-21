@@ -4,7 +4,7 @@ import NavBar from './components/navbar.vue'
 
 
 </script>
-//Aqui es la prinicipal, donde se manejan las cosas
+
 <template>
   <NavBar/>
 
@@ -16,10 +16,11 @@ a{
   text-decoration: none;
 }
 body{
-  background-color: #eeeaeb;
+  background-color: #cad4fa;
   margin: 0;
 }
 h1{
   text-align: center;
+  /* font-family: ; */
 }
 </style>

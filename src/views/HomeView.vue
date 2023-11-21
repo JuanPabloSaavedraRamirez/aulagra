@@ -13,13 +13,17 @@
       <p class="texto">click aqui</p>
 
       <div class="CursosP">
-        <h4>Cursos presenciales</h4>
-
+        <a href="/CursosP">
+          <h4>Cursos presenciales</h4>
+          <img src="Prueba.JPG" alt="">
+        </a>
       </div>
 
       <div class="CursosL">
-        <h4>Cursos en linea</h4>
-
+        <a href="/CursosL">
+          <h4>Cursos en linea</h4>
+          <img src="Prueba.JPG" alt="">
+        </a>
       </div>
       
     </div>
@@ -31,8 +35,8 @@
   .Contenedor{
     perspective: 60rem;
     display: grid;
-    grid-template-rows: repeat(20, 100px);
-    grid-template-columns: repeat(15,105px);
+    grid-template-rows: repeat(8, 100px);
+    grid-template-columns: repeat(18,105px);
     object-position: center;
 
   }
@@ -48,7 +52,7 @@
     grid-column-start: 6;
   }
   a{
-    grid-column-start: 7;
+    grid-column-start: 9;
     grid-row-start: 4;
   }
   img:hover{
@@ -56,14 +60,14 @@
     scale: 1.05;
   }
   .CursosP{
-    grid-column-start: 2;
-    grid-column-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 8;
     text-align: center;
     grid-row-start: 2;
   }
   .CursosL{
-    grid-column-start: 11;
-    grid-column-end: 15;
+    grid-column-start: 13;
+    grid-column-end: 17;
     text-align: center;
     grid-row-start: 2;
   }
@@ -78,4 +82,69 @@
     color: #0e1438;
   }
 
+
+  @media (max-width: 600px){
+  .Contenedor {
+    perspective: 60rem;
+    display: grid;
+    grid-template-rows: repeat(8, 80px); 
+    grid-template-columns: repeat(13, 50px); 
+    object-position: center;
+    max-width: 600px; 
+    margin: 0 auto; 
+  }
+
+  .card {
+    overflow: hidden;
+    height: 150px; 
+    width: 150px; 
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 5;
+  }
+
+  img {
+    transition: transform 500ms, scale 300ms; 
+    width: 120px; 
+    height: 105px; 
+    /* grid-column-start: 4;  */
+  }
+
+  a {
+    grid-column-start: 6; 
+    grid-row-start: 3; 
+  }
+
+  img:hover {
+    transform: rotateY(15deg) scale(1.05); 
+  }
+
+  .CursosP {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: center;
+    grid-row-start: 2; 
+  }
+
+  .CursosL {
+    grid-column-start: 9; 
+    grid-column-end: 12; 
+    text-align: center;
+    grid-row-start: 2; 
+  }
+
+  .texto {
+    grid-column-start: 6; 
+    grid-row-start: 4; 
+    margin-top: 50px; 
+    position: absolute;
+    color: #0e1438;
+    
+  }
+
+  body {
+    color: #0e1438;
+  }
+
+  }
 </style>

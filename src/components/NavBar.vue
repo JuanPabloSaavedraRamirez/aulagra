@@ -4,7 +4,7 @@
 <template>
     <div class="nav-bar">
         <div class="logo">
-            <img src="/logo.png" alt="" class="ILogo">
+            <img src="/Logo2.png" alt="" class="ILogo">
         </div>
         
         <div>
@@ -62,7 +62,7 @@
         height: 100px;
         width: 100%;
         top: 0;
-        background-color: #cad4fa;
+        background-color: #bcc6eb;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -92,5 +92,54 @@
     .Route p{
         font-size: 15px;
         color: #0e1438;
+    }
+
+    @media (max-width: 600px){
+
+    .ILogo{
+        width: 60px; /* Ajuste el tamaño según tus preferencias */
+        height: 60px; /* Ajuste el tamaño según tus preferencias */
+    }
+
+    .nav-bar{
+        position: sticky;
+        text-align: center;
+        height: 80px; /* Ajuste la altura según tus preferencias */
+        max-width: 600px;
+        width: 100%;
+        top: 0;
+        background-color: #bcc6eb;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100; 
+        margin: 0 auto; /* Centra el contenido dentro de la anchura máxima */
+    }
+
+    .logo{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Routes{
+        display: flex;
+    }
+    .Route{
+        height: 100%;
+        width: 80px; /* Ajuste la anchura según tus preferencias */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Route:hover{
+        background-color: #98a0bd;
+    }
+
+    .Route p{
+        font-size: 12px; /* Ajuste el tamaño de fuente según tus preferencias */
+        color: #0e1438;
+    }
+
     }
 </style>
