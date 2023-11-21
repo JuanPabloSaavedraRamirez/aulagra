@@ -28,10 +28,14 @@ export default {
     <div class="CursosP">
         <!-- Boton 1 -->
       <div class="CursosP1">
-        <button @click="toggleMenu(1)" > <img src="Prueba.JPG" alt=""><h2 class="Fecha">20/11/2023 Curso de Eventos</h2></button>
+        <button @click="toggleMenu(1)" > <img src="OrganizacionEventos.JPG" alt=""><h2 class="Fecha">20/11/2023 Curso de Eventos</h2></button>
         <div v-if="isOpen[1]" class="dropdown">
-            <p class="tema">Curso de Organizacion de eventos</p>
-            <p class="Miembros">Miembros: 20</p>
+            <p class="tema">Curso de Organización Profesional de Eventos</p>
+            <p class="Data">Presencial en Guadalajara
+              Lunes 27 y martes 28 de noviembre.
+Impartido por la Maestra Silvia Ramírez de León, con más de 20 años trabajando en el área
+de eventos e impartiendo cursos.
+            </p>
         </div>
       </div>
 
@@ -42,7 +46,7 @@ export default {
         <button @click="toggleMenu(2)"> <img src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Literatura</h2></button>
         <div v-if="isOpen[2]" class="dropdown">
           <p class="tema">Curso de Organizacion de literatura</p>
-          <p class="Miembros">Miembros: 20</p>
+          <p class="Data">Miembros: 20</p>
         </div>
       </div>
 
@@ -53,7 +57,7 @@ export default {
         <button @click="toggleMenu(3)"> <img src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de cuentos fantasticos</h2></button>
         <div v-if="isOpen[3]" class="dropdown">
           <p class="tema">Curso de Organizacion de cuentos fantasticos</p>
-          <p class="Miembros">Miembros: 15</p>
+          <p class="Data">Miembros: 15</p>
         </div>
       </div>
 
@@ -64,7 +68,7 @@ export default {
         <button @click="toggleMenu(4)"> <img src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Poesia</h2></button>
         <div v-if="isOpen[4]" class="dropdown">
           <p class="tema">Curso de Organizacion de Poesia</p>
-          <p class="Miembros">Miembros: 15</p>
+          <p class="Data">Miembros: 15</p>
         </div>
       </div>
       
@@ -152,15 +156,15 @@ img{
 .tema{
     font-size: 15px;
     grid-column-start: 2;
-    grid-column-end: 10;
-    grid-row-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 1;
 }
 
-.Miembros{
+.Data{
     font-size: 15px;
     grid-column-start: 2;
-    grid-column-end: 10;
-    grid-row-start: 3;
+    grid-column-end: 12;
+    grid-row-start: 2;
 }
 
 button {
@@ -260,7 +264,7 @@ img{
     grid-row-start: 2;
 }
 
-.Miembros{
+.Data{
     font-size: 13px;
     text-align: center;
     grid-column-start: 1;

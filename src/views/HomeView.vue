@@ -1,5 +1,5 @@
 <script setup>
-
+import PieDePagina from '../components/PieDePagina.vue';
 </script>
 
 <template>
@@ -15,7 +15,7 @@
       <div class="CursosP">
         <a href="/CursosP">
           <h4>Cursos presenciales</h4>
-          <img src="Prueba.JPG" alt="">
+          <img src="CursosPresenciales.JPG" alt="">
         </a>
       </div>
 
@@ -26,6 +26,8 @@
         </a>
       </div>
       
+      <!-- <PieDePagina/> -->
+
     </div>
   </main>
 </template>
@@ -35,7 +37,7 @@
   .Contenedor{
     perspective: 60rem;
     display: grid;
-    grid-template-rows: repeat(8, 100px);
+    grid-template-rows: repeat(9, 100px);
     grid-template-columns: repeat(18,105px);
     object-position: center;
 
@@ -81,7 +83,6 @@
   body{
     color: #0e1438;
   }
-
 
   @media (max-width: 600px){
   .Contenedor {

@@ -28,10 +28,13 @@ export default {
     <div class="CursosL">
         <!-- Boton 1 -->
       <div class="CursosL1">
-        <button @click="toggleMenu(1)" > <img src="Prueba.JPG" alt=""><h2 class="Fecha">20/11/2023 Curso de Eventos</h2></button>
+        <button @click="toggleMenu(1)" > <img class="img" src="OrganizacionEventos.JPG" alt=""><h2 class="Fecha">20/11/2023 Curso de Eventos</h2></button>
         <div v-if="isOpen[1]" class="dropdown">
-            <p class="tema">Curso de Organizacion de eventos</p>
-            <p class="Miembros">Miembros: 20</p>
+            <p class="tema">El Curso Organización Profesional de Eventos</p>
+            <p class="Data">Iniciamos el miércoles 20 de noviembre de 7 a 9 de la noche horario del centro de México.
+Son 8 sesiones (una cada semana de 2 horas), vía Meet
+Impartido por la Maestra Silvia Ramírez de León, profesora y organizadora de eventos por
+más de 20 años.</p>
         </div>
       </div>
 
@@ -39,10 +42,15 @@ export default {
       
       <!-- Boton 2 -->
       <div class="CursosL2">
-        <button @click="toggleMenu(2)"> <img src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Literatura</h2></button>
+        <button @click="toggleMenu(2)"> <img class="img" src="CuentoCorto.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Cuento Corto</h2></button>
         <div v-if="isOpen[2]" class="dropdown">
-          <p class="tema">Curso de Organizacion de literatura</p>
-          <p class="Miembros">Miembros: 20</p>
+          <p class="tema">Curso de Cuento Corto</p>
+          <p class="Data">Taller de Cuento Corto
+¿Cuál es la expresión mínima de un cuento? ¿Cómo pasa de ser cuento corto a minificción y
+de ahí a la naciente tuiteratura de las redes sociales? Tales son las preguntas que
+resolveremos en este taller acerca de la escritura que busca profundizar sobre la brevedad.
+Leeremos muchos cuentos cortos para observar su funcionamiento y haremos ejercicios de
+escritura para crear nuestros propios cuentos.</p>
         </div>
       </div>
 
@@ -50,10 +58,14 @@ export default {
 
         <!-- Boton 3 -->
         <div class="CursosL3">
-        <button @click="toggleMenu(3)"> <img src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de cuentos fantasticos</h2></button>
+        <button @click="toggleMenu(3)"> <img class="img" src="RecursosDeLaNovela.JPG" alt=""><h3 class="Fecha">27/11/2023 Curso de los recursos de la novela</h3></button>
         <div v-if="isOpen[3]" class="dropdown">
-          <p class="tema">Curso de Organizacion de cuentos fantasticos</p>
-          <p class="Miembros">Miembros: 15</p>
+          <p class="tema">Curso de los recursos de la novela.</p>
+          <p class="Data">Leemos novelas breves y practicamos herramientas para novelar historias. Lo imparte el
+escritor Fernando de León e incluye materiales de lectura. Se leen las novelas El complot
+mongol de Rafael Bernal, El reporte de las minorías de P K Dick y Apuntes del subsuelo de
+Doistoyevski. Además los temas: El diálogo. El monólogo. La descripción. La acción. La
+reflexión.</p>
         </div>
       </div>
 
@@ -61,10 +73,12 @@ export default {
 
       <!-- Boton 4 -->
       <div class="CursosL4">
-        <button @click="toggleMenu(4)"> <img src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Poesia</h2></button>
+        <button @click="toggleMenu(4)"> <img class="img" src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Poesia</h2></button>
         <div v-if="isOpen[4]" class="dropdown">
           <p class="tema">Curso de Organizacion de Poesia</p>
-          <p class="Miembros">Miembros: 15</p>
+          <p class="Data">Veremos como es que se crea la poesia y que la conlleva asi como varios escritores de poesia bastante reconocidos
+            analizaremos poemos y veremos a profundidad como son y como es que se escriben estos mismos
+          </p>
         </div>
       </div>
 
@@ -75,6 +89,10 @@ export default {
 
 
 <style scoped>
+.img{
+  width: 420px;
+  height: 300px;
+}
 .CursosL{
   display: grid;
   grid-template-rows: repeat(20, 100px);
@@ -145,17 +163,17 @@ img{
 }
 
 .tema{
-    font-size: 15px;
+    font-size: 13px;
     grid-column-start: 2;
-    grid-column-end: 10;
-    grid-row-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 1;
 }
 
-.Miembros{
-    font-size: 15px;
+.Data{
+    font-size: 13px;
     grid-column-start: 2;
-    grid-column-end: 10;
-    grid-row-start: 3;
+    grid-column-end: 12;
+    grid-row-start: 2;
 }
 
 button {
@@ -255,7 +273,7 @@ img{
     grid-row-start: 2;
 }
 
-.Miembros{
+.Data{
     font-size: 13px;
     text-align: center;
     grid-column-start: 1;
