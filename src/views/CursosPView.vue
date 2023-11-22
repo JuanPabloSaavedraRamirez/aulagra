@@ -28,7 +28,7 @@ export default {
     <div class="CursosP">
         <!-- Boton 1 -->
       <div class="CursosP1">
-        <button @click="toggleMenu(1)" > <img src="OrganizacionEventos.JPG" alt=""><h2 class="Fecha">20/11/2023 Curso de Eventos</h2></button>
+        <button @click="toggleMenu(1)" > <img src="OrganizacionEventos.JPG" alt=""><h2 class="Fecha">20/11/2023 Curso de Organización Profesional de Eventos</h2></button>
         <div v-if="isOpen[1]" class="dropdown">
             <p class="tema">Curso de Organización Profesional de Eventos</p>
             <p class="Data">Presencial en Guadalajara
@@ -43,9 +43,9 @@ de eventos e impartiendo cursos.
       
       <!-- Boton 2 -->
       <div class="CursosP2">
-        <button @click="toggleMenu(2)"> <img src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Literatura</h2></button>
+        <button @click="toggleMenu(2)"> <img src="CursoOR.png" alt=""><h2 class="Fecha">27/11/2023 Curso de Ortografia y Redaccion</h2></button>
         <div v-if="isOpen[2]" class="dropdown">
-          <p class="tema">Curso de Organizacion de literatura</p>
+          <p class="tema">Curso de Ortografia y Redaccion</p>
           <p class="Data">Miembros: 20</p>
         </div>
       </div>
@@ -54,9 +54,9 @@ de eventos e impartiendo cursos.
 
         <!-- Boton 3 -->
         <div class="CursosP3">
-        <button @click="toggleMenu(3)"> <img src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de cuentos fantasticos</h2></button>
+        <button @click="toggleMenu(3)"> <img src="CursoOR2.png" alt=""><h2 class="Fecha">27/11/2023 Curso de Ortografia y Redaccion</h2></button>
         <div v-if="isOpen[3]" class="dropdown">
-          <p class="tema">Curso de Organizacion de cuentos fantasticos</p>
+          <p class="tema">Curso de Ortografia y Redaccion</p>
           <p class="Data">Miembros: 15</p>
         </div>
       </div>
@@ -65,9 +65,9 @@ de eventos e impartiendo cursos.
 
       <!-- Boton 4 -->
       <div class="CursosP4">
-        <button @click="toggleMenu(4)"> <img src="Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Poesia</h2></button>
+        <button @click="toggleMenu(4)"> <img src="CursoNoche.png" alt=""><h2 class="Fecha">27/11/2023 Curso de Mounstros y demonios 2</h2></button>
         <div v-if="isOpen[4]" class="dropdown">
-          <p class="tema">Curso de Organizacion de Poesia</p>
+          <p class="tema">Curso de Mounstros y demonios 2</p>
           <p class="Data">Miembros: 15</p>
         </div>
       </div>
@@ -79,9 +79,13 @@ de eventos e impartiendo cursos.
 
 
 <style scoped>
+img{
+  width: 420px;
+  height: 300px;
+}
 .CursosP{
   display: grid;
-  grid-template-rows: repeat(20, 100px);
+  grid-template-rows: repeat(14, 100px);
   grid-template-columns: repeat(18,105px);
 }
 .Titulo{

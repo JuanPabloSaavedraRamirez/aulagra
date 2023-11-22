@@ -7,21 +7,21 @@ import PieDePagina from '../components/PieDePagina.vue';
     <div class="Contenedor">
       <a href="/info">
         <div class="card">
-          <img src="/logo.png" alt="" >
+          <img src="/Logo2.png" alt="" >
         </div>
       </a>
       <p class="texto">click aqui</p>
 
       <div class="CursosP">
         <a href="/CursosP">
-          <h4>Cursos presenciales</h4>
+          <h2>Cursos presenciales</h2>
           <img src="CursosPresenciales.JPG" alt="">
         </a>
       </div>
 
       <div class="CursosL">
         <a href="/CursosL">
-          <h4>Cursos en linea</h4>
+          <h2>Cursos en linea</h2>
           <img src="Prueba.JPG" alt="">
         </a>
       </div>

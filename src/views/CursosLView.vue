@@ -95,7 +95,7 @@ reflexión.</p>
 }
 .CursosL{
   display: grid;
-  grid-template-rows: repeat(20, 100px);
+  grid-template-rows: repeat(14, 100px);
   grid-template-columns: repeat(18,105px);
 }
 .CursosL1{
