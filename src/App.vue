@@ -22,7 +22,7 @@ a{
 }
 body{
   /* background-color: #cad4fa; */
-  background-image: url(/FondoP2.jpg);
+  background-image: url(/public/FondoP2.jpg);
   margin: 0;
 }
 h1{
