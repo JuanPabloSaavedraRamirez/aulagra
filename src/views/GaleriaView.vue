@@ -1,18 +1,18 @@
 <template>
     <div>
         <h1>Galeria de fotos</h1>
-        <img src="1.JPG" alt="">
-        <img src="2.JPG" alt="">
-        <img src="3.JPG" alt="">
-        <img src="4.JPG" alt="">
-        <img src="5.JPG" alt="">
-        <img src="CursosPresenciales.JPG" alt="">
-        <img src="Prueba.JPG" alt="">
-        <img src="Cursofisico.JPG" alt="">
-        <img src="Libro.JPG" alt="">
-        <img src="Galeria1.JPG" alt="">
-        <img src="Galeria2.JPG" alt="">
-        <img src="Galeria3.JPG" alt="">
+        <img src="/1.JPG" alt="">
+        <img src="/2.JPG" alt="">
+        <img src="/3.JPG" alt="">
+        <img src="/4.JPG" alt="">
+        <img src="/5.JPG" alt="">
+        <img src="/CursosPresenciales.JPG" alt="">
+        <img src="/Prueba.JPG" alt="">
+        <img src="/Cursofisico.JPG" alt="">
+        <img src="/Libro.JPG" alt="">
+        <img src="/Galeria1.JPG" alt="">
+        <img src="/Galeria2.JPG" alt="">
+        <img src="/Galeria3.JPG" alt="">
     </div>
 </template>
 

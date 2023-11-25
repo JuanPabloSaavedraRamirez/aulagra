@@ -1,6 +1,6 @@
 <template>
     <div class="PieDePagina">
-        <img class="LOGOP" src="./PieDePagina2.png" alt="">
+        <img class="LOGOP" src="/PieDePagina2.png" alt="">
 
         <h3 class="Numero">Numero de contacto:</h3>
         <h3 class="Telefono">33 1438 7923</h3>
@@ -8,9 +8,9 @@
         <h3 class="Co">Correo de contacto:</h3>
         <h3 class="Correo">aulagramma@gmail.com</h3>
 
-        <a class="face" href="https://www.facebook.com/profile.php?id=100063923500181"><img  src="faceLogo.png" alt=""></a>
-        <a class="insta" href="https://instagram.com/grammaaula?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img src="logoInsta.png" alt=""></a>
-        <a class="X" href="https://twitter.com/grammaaula"><img src="logoX.jpg" alt=""></a>
+        <a class="face" href="https://www.facebook.com/profile.php?id=100063923500181"><img  src="/faceLogo.png" alt=""></a>
+        <a class="insta" href="https://instagram.com/grammaaula?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img src="/logoInsta.png" alt=""></a>
+        <a class="X" href="https://twitter.com/grammaaula"><img src="/logoX.jpg" alt=""></a>
     </div>
 </template>+
 
