@@ -73,7 +73,7 @@ reflexión.</p>
 
       <!-- Boton 4 -->
       <div class="CursosL4">
-        <button @click="toggleMenu(4)"> <img class="img" src="\Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Poesia</h2></button>
+        <button @click="toggleMenu(4)"> <h2 class="Fecha">27/11/2023 Curso de Poesia</h2></button>
         <div v-if="isOpen[4]" class="dropdown">
           <p class="tema">Curso de Organizacion de Poesia</p>
           <p class="Data">Veremos como es que se crea la poesia y que la conlleva asi como varios escritores de poesia bastante reconocidos
