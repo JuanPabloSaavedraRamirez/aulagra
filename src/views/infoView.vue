@@ -33,11 +33,11 @@
     :autoplay="{ delay: 1000 }"
     class="mySwiper">
 
-  <swiper-slide><img src="../assets/1.JPG" alt=""></swiper-slide>
-  <swiper-slide><img src="../assets/2.JPG" alt=""></swiper-slide>
-  <swiper-slide><img src="../assets/3.JPG" alt=""></swiper-slide>
-  <swiper-slide><img src="../assets/4.JPG" alt=""></swiper-slide>
-  <swiper-slide><img src="../assets/5.JPG" alt=""></swiper-slide>
+  <swiper-slide><img src="1.JPG" alt=""></swiper-slide>
+  <swiper-slide><img src="2.JPG" alt=""></swiper-slide>
+  <swiper-slide><img src="3.JPG" alt=""></swiper-slide>
+  <swiper-slide><img src="4.JPG" alt=""></swiper-slide>
+  <swiper-slide><img src="5.JPG" alt=""></swiper-slide>
 
   </swiper>
 
