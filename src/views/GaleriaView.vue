@@ -1,7 +1,6 @@
 <template>
     <div>
         <h1>Galeria de fotos</h1>
-        <img src="/COPE.jpg" alt="">
         <img src="/Galeria1.jpg" alt="">
         <img src="/Galeria2.jpg" alt="">
         <img src="/Galeria3.jpg" alt="">
@@ -15,6 +14,8 @@
         <img src="/Galeria11.jpg" alt="">
         <img src="/Galeria12.jpg" alt="">
         <img src="/COPE2.jpg" alt="">
+        <img src="/TCC.jpg" alt="">
+        <img src="/TRN.jpg" alt=""> 
     </div>
 </template>
 

@@ -58,7 +58,7 @@ escritura para crear nuestros propios cuentos.</p>
 
         <!-- Boton 3 -->
         <div class="CursosL3">
-        <button @click="toggleMenu(3)">  <h3 class="Fecha">27/11/2023 Curso de los recursos de la novela</h3></button>
+        <button @click="toggleMenu(3)"> <img class="img" src="/TRN.jpg" alt=""> <h3 class="Fecha">27/11/2023 Curso de los recursos de la novela</h3></button>
         <div v-if="isOpen[3]" class="dropdown">
           <p class="tema">Curso de los recursos de la novela.</p>
           <p class="Data">Leemos novelas breves y practicamos herramientas para novelar historias. Lo imparte el
