@@ -28,7 +28,7 @@ export default {
     <div class="CursosL">
         <!-- Boton 1 -->
       <div class="CursosL1">
-        <button @click="toggleMenu(1)" > <img class="img" src="\OrganizacionEventos.JPG" alt=""><h2 class="Fecha">20/11/2023 Curso de Eventos</h2></button>
+        <button @click="toggleMenu(1)" > <h2 class="Fecha">20/11/2023 Curso de Eventos</h2></button>
         <div v-if="isOpen[1]" class="dropdown">
             <p class="tema">El Curso Organización Profesional de Eventos</p>
             <p class="Data">Iniciamos el miércoles 20 de noviembre de 7 a 9 de la noche horario del centro de México.
