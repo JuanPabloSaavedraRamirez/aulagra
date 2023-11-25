@@ -22,7 +22,7 @@ import PieDePagina from '../components/PieDePagina.vue';
       <div class="CursosL">
         <a href="/CursosL">
           <h2>Cursos en linea</h2>
-          <img src="\public\Prueba.JPG" alt="">
+
         </a>
       </div>
       
