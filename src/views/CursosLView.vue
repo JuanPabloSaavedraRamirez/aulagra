@@ -42,7 +42,7 @@ más de 20 años.</p>
       
       <!-- Boton 2 -->
       <div class="CursosL2">
-        <button @click="toggleMenu(2)"> <h2 class="Fecha">27/11/2023 Curso de Cuento Corto</h2></button>
+        <button @click="toggleMenu(2)"> <img class="img" src="/TCC.jpg" alt=""> <h2 class="Fecha">27/11/2023 Curso de Cuento Corto</h2></button>
         <div v-if="isOpen[2]" class="dropdown">
           <p class="tema">Curso de Cuento Corto</p>
           <p class="Data">Taller de Cuento Corto
