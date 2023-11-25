@@ -22,7 +22,7 @@ a{
 }
 body{
   /* background-color: #cad4fa; */
-  background-image: url(Fondo3.jpg);
+  background-image: url(FondoP2.jpg);
   margin: 0;
 }
 h1{

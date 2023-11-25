@@ -120,45 +120,23 @@
     margin: 0;
   }
 
-  @media (max-width: 600px){
+  @media (max-width: 600px) {
   .Formulario {
-    display: grid;
-    grid-template-rows: repeat(3, 60px);
-    grid-template-columns: repeat(6, 1fr); 
-    align-items: center;
-    margin: 0 auto; 
-    max-width: 600px; 
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 1fr; 
   }
 
   .form {
-    grid-column: span 2; 
-    text-align: center;
+    grid-column: 1; 
   }
 
-  h1, h2 {
-    text-align: center;
+  .texto{
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   img {
-    width: 100px;
+    width: 300px;
   }
-
-  input, button {
-    border-radius: 10px;
-    text-align: center;
-    height: 20px;
-    width: 100%; 
-    box-sizing: border-box; 
-    margin-bottom: 10px; 
-  }
-
-  button {
-    border-radius: 10px;
-  }
-
-  body {
-    background-color: #cad4fa;
-    margin: 0;
-  }
-  }
+}
 </style>

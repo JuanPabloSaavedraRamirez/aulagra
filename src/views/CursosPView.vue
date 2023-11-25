@@ -185,7 +185,7 @@ button {
 @media (max-width: 600px){
   .CursosP{
     display: grid;
-    grid-template-rows: repeat(15, 50px);
+    grid-template-rows: repeat(46, 50px);
     grid-template-columns: repeat(12,50px);
   }
   .Fecha{
@@ -197,10 +197,10 @@ button {
   grid-row-start: 2;
 }
 .CursosP1{
-  grid-column-start: 2;
-  grid-column-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 10;
   grid-row-start: 2;
-  grid-row-end: 6;
+  grid-row-end: 9;
   align-items: center;
   background-color: #EDE8EC;
 }
@@ -209,10 +209,10 @@ button {
 }
 
 .CursosP2{
-  grid-column-start: 8;
-  grid-column-end: 12;
-  grid-row-start: 2;
-  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 13;
+  grid-row-end: 20;
   align-items: center;
   background-color: #EDE8EC;
 }
@@ -221,10 +221,10 @@ button {
 }
 
 .CursosP3{
-  grid-column-start: 2;
-  grid-column-end: 6;
-  grid-row-start: 10;
-  grid-row-end: 14;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 24;
+  grid-row-end: 31;
   align-items: center;
   background-color: #EDE8EC;
 }
@@ -233,10 +233,10 @@ button {
 }
 
 .CursosP4{
-  grid-column-start: 8;
-  grid-column-end: 12;
-  grid-row-start: 10;
-  grid-row-end: 14;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 35;
+  grid-row-end: 42;
   align-items: center;
   background-color: #EDE8EC;
 }
@@ -247,24 +247,20 @@ button {
 .dropdown {
   display: grid;
   grid-template-rows: repeat(6, 30px);
-  grid-template-columns: repeat(6, 35px);
+  grid-template-columns: repeat(8, 35px);
   flex-direction: column;
   margin-top: 0;
   background-color: #EDE8EC;
 }
 img{
-  width: 200px;
-  grid-column-start: 11;
-  grid-column-end: 15;
-  text-align: center;
-  grid-row-start: 2;
+  width: 300px;
 }
 
 .tema{
     font-size: 13px;
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 9;
     grid-row-start: 2;
 }
 
@@ -272,7 +268,7 @@ img{
     font-size: 13px;
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 9;
     grid-row-start: 3;
 }
 

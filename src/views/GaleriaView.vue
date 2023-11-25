@@ -27,4 +27,12 @@ img{
     padding: 40px;
 }
 
+@media (max-width: 600px){
+    img{
+    width: 200px;
+    height: 250px;
+    padding: 40px;
+}
+}
+
 </style>

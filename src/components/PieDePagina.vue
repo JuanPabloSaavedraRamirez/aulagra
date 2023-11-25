@@ -9,8 +9,8 @@
         <h3 class="Correo">aulagramma@gmail.com</h3>
 
         <a class="face" href="https://www.facebook.com/profile.php?id=100063923500181"><img  src="faceLogo.png" alt=""></a>
-        <a class="insta" href=""><img src="logoInsta.png" alt=""></a>
-        <a class="X" href=""><img src="logoX.jpg" alt=""></a>
+        <a class="insta" href="https://instagram.com/grammaaula?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img src="logoInsta.png" alt=""></a>
+        <a class="X" href="https://twitter.com/grammaaula"><img src="logoX.jpg" alt=""></a>
     </div>
 </template>+
 
@@ -77,5 +77,70 @@
     img{
         width: 150px;
         height: 150px;
+    }
+
+@media (max-width: 600px) {
+.PieDePagina{
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(6, 100px);
+    justify-content: space-between;
+    /* align-items: center;
+    text-align: center; */
+    background-color: #bcc6eb;
+}
+
+.LOGOP{
+    width: 150px;
+    height: 125px; 
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.Numero{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    font-size: 10px;
+}
+.Telefono{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 10px;
+}
+.Co{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: 10px;
+}
+
+.Correo{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 10px;
+}
+.face{
+    grid-column-start: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.insta{
+    grid-column-start: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.X{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+img{
+    width: 75px;
+    height: 75px; 
+}
+
     }
 </style>
