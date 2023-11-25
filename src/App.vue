@@ -27,7 +27,6 @@ body{
 }
 h1{
   text-align: center;
-  /* font-family: ; */
 }
 .body{
   min-height: calc(100dvh - 350px);
