@@ -82,7 +82,6 @@ import PieDePagina from '../components/PieDePagina.vue';
   }
   body{
     color: #0e1438;
-    background-image: url(FondoP2.jpg);
   }
 
   @media (max-width: 600px){
