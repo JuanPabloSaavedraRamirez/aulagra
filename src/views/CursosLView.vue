@@ -28,7 +28,7 @@ export default {
     <div class="CursosL">
         <!-- Boton 1 -->
       <div class="CursosL1">
-        <button @click="toggleMenu(1)" > <img class="img" src="/OrganizacionEventos.JPG" alt=""><h2 class="Fecha">20/11/2023 Curso de Eventos</h2></button>
+        <button @click="toggleMenu(1)" > <img class="img" src="\public\OrganizacionEventos.JPG" alt=""><h2 class="Fecha">20/11/2023 Curso de Eventos</h2></button>
         <div v-if="isOpen[1]" class="dropdown">
             <p class="tema">El Curso Organización Profesional de Eventos</p>
             <p class="Data">Iniciamos el miércoles 20 de noviembre de 7 a 9 de la noche horario del centro de México.
@@ -42,7 +42,7 @@ más de 20 años.</p>
       
       <!-- Boton 2 -->
       <div class="CursosL2">
-        <button @click="toggleMenu(2)"> <img class="img" src="/CuentoCorto.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Cuento Corto</h2></button>
+        <button @click="toggleMenu(2)"> <img class="img" src="\public\CuentoCorto.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Cuento Corto</h2></button>
         <div v-if="isOpen[2]" class="dropdown">
           <p class="tema">Curso de Cuento Corto</p>
           <p class="Data">Taller de Cuento Corto
@@ -58,7 +58,7 @@ escritura para crear nuestros propios cuentos.</p>
 
         <!-- Boton 3 -->
         <div class="CursosL3">
-        <button @click="toggleMenu(3)"> <img class="img" src="/RecursosDeLaNovela.JPG" alt=""><h3 class="Fecha">27/11/2023 Curso de los recursos de la novela</h3></button>
+        <button @click="toggleMenu(3)"> <img class="img" src="\public\RecursosDeLaNovela.JPG" alt=""><h3 class="Fecha">27/11/2023 Curso de los recursos de la novela</h3></button>
         <div v-if="isOpen[3]" class="dropdown">
           <p class="tema">Curso de los recursos de la novela.</p>
           <p class="Data">Leemos novelas breves y practicamos herramientas para novelar historias. Lo imparte el
@@ -73,7 +73,7 @@ reflexión.</p>
 
       <!-- Boton 4 -->
       <div class="CursosL4">
-        <button @click="toggleMenu(4)"> <img class="img" src="/Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Poesia</h2></button>
+        <button @click="toggleMenu(4)"> <img class="img" src="\public\Prueba.JPG" alt=""><h2 class="Fecha">27/11/2023 Curso de Poesia</h2></button>
         <div v-if="isOpen[4]" class="dropdown">
           <p class="tema">Curso de Organizacion de Poesia</p>
           <p class="Data">Veremos como es que se crea la poesia y que la conlleva asi como varios escritores de poesia bastante reconocidos
