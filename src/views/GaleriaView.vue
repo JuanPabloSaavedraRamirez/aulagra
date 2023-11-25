@@ -10,7 +10,6 @@
         <img src="/Galeria7.jpg" alt="">
         <img src="/Galeria8.jpg" alt="">
         <img src="/TRN.jpg" alt="">
-        <img src="TCC.jpg" alt="">
         <img src="/Galeria9.jpg" alt="">
         <img src="/Galeria10.jpg" alt="">
         <img src="/Galeria11.jpg" alt="">
