@@ -117,7 +117,7 @@
   }
 
   body{
-    background-color: #cad4fa;
+    background-image: url(FondoP2.jpg);
     margin: 0;
   }
 

@@ -68,6 +68,9 @@ export default {
 </template>
 
 <style scoped>
+body{
+  background-image: url(FondoP2.jpg);
+}
 .title {
   text-align: center;
   color: #333;

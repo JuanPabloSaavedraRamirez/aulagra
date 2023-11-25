@@ -79,6 +79,9 @@ de eventos e impartiendo cursos.
 
 
 <style scoped>
+body{
+  background-image: url(FondoP2.jpg);
+}
 img{
   width: 420px;
   height: 300px;
