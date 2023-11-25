@@ -89,7 +89,7 @@ reflexión.</p>
 
 <style scoped>
 body{
-  background-image: url(FondoP2.jpg);
+  background-image: url(/FondoP2.jpg);
 }
 .img{
   width: 420px;

@@ -8,7 +8,7 @@ app {
   }
   
   body {
-    background-image: url(FondoP2.jpg);
+    background-image: url(/FondoP2.jpg);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;

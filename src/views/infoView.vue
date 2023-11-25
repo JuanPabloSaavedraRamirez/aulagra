@@ -117,7 +117,7 @@
   }
 
   body{
-    background-image: url(FondoP2.jpg);
+    background-image: url(/FondoP2.jpg);
     margin: 0;
   }
 

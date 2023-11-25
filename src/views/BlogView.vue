@@ -69,7 +69,7 @@ export default {
 
 <style scoped>
 body{
-  background-image: url(FondoP2.jpg);
+  background-image: url(/FondoP2.jpg);
 }
 .title {
   text-align: center;
