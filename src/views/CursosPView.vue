@@ -28,7 +28,7 @@ export default {
     <div class="CursosP">
         <!-- Boton 1 -->
       <div class="CursosP1">
-        <button @click="toggleMenu(1)" > <h2 class="Fecha">20/11/2023 Curso de Organización Profesional de Eventos</h2></button>
+        <button @click="toggleMenu(1)" > <img src="/COPE2.jpg" alt=""> <h2 class="Fecha">20/11/2023 Curso de Organización Profesional de Eventos</h2></button>
         <div v-if="isOpen[1]" class="dropdown">
             <p class="tema">Curso de Organización Profesional de Eventos</p>
             <p class="Data">Presencial en Guadalajara
