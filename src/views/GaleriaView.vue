@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Galeria de fotos</h1>
-        <img src="/OrganizacionEventos.JPG" alt="" >
+        <img src="/PieDePagina.png" alt="" >
     </div>
 </template>
 
