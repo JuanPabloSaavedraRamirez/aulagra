@@ -15,14 +15,14 @@ import PieDePagina from '../components/PieDePagina.vue';
       <div class="CursosP">
         <a href="/CursosP">
           <h2>Cursos presenciales</h2>
-
+          <img src="/Galeria7.jpg" alt="">
         </a>
       </div>
 
       <div class="CursosL">
         <a href="/CursosL">
           <h2>Cursos en linea</h2>
-
+          <img src="/Galeria5.jpg" alt="">
         </a>
       </div>
       
