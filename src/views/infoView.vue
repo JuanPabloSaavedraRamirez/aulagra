@@ -33,7 +33,7 @@
     :autoplay="{ delay: 1000 }"
     class="mySwiper">
 
-  <swiper-slide><img src="1.JPG" alt=""></swiper-slide>
+  <swiper-slide><img src="/public\1.JPG" alt=""></swiper-slide>
   <swiper-slide><img src="2.JPG" alt=""></swiper-slide>
   <swiper-slide><img src="3.JPG" alt=""></swiper-slide>
   <swiper-slide><img src="4.JPG" alt=""></swiper-slide>
