@@ -3,7 +3,6 @@
         <h1>Galeria de fotos</h1>
         <img src="/Galeria1.jpg" alt="">
         <img src="/Galeria2.jpg" alt="">
-        <img src="COPE.jpg" alt="">
         <img src="/Galeria3.jpg" alt="">
         <img src="/Galeria4.jpg" alt="">
         <img src="/Galeria5.jpg" alt="">
