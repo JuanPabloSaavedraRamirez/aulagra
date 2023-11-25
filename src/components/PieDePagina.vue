@@ -1,6 +1,6 @@
 <template>
     <div class="PieDePagina">
-        <img class="LOGOP" src="PieDePagina2.png" alt="">
+        <img class="LOGOP" src="./PieDePagina2.png" alt="">
 
         <h3 class="Numero">Numero de contacto:</h3>
         <h3 class="Telefono">33 1438 7923</h3>
