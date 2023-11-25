@@ -15,7 +15,7 @@ import PieDePagina from '../components/PieDePagina.vue';
       <div class="CursosP">
         <a href="/CursosP">
           <h2>Cursos presenciales</h2>
-          <img src="/CursosPresenciales.JPG" alt="">
+          <img src="CursosPresenciales.JPG" alt="">
         </a>
       </div>
 
