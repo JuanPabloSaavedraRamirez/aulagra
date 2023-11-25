@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Galeria de fotos</h1>
-        <img src="/CursoOR2.png" alt="" >
+        <img src="/faceLogo2.png" alt="" >
     </div>
 </template>
 
