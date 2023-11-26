@@ -7,7 +7,7 @@ import PieDePagina from '../components/PieDePagina.vue';
     <div class="Contenedor">
       <a href="/info">
         <div class="card">
-          <img src="/Logo2.png" alt="" >
+          <img class="logo" src="/PieDePagina2.png" alt="" >
         </div>
       </a>
       <p class="texto">click aqui</p>
@@ -34,6 +34,10 @@ import PieDePagina from '../components/PieDePagina.vue';
 
 
 <style scoped>
+.logo{
+  width: 350px;
+  height: 300px;
+}
   .Contenedor{
     perspective: 60rem;
     display: grid;
@@ -86,6 +90,10 @@ import PieDePagina from '../components/PieDePagina.vue';
   }
 
   @media (max-width: 600px){
+    .logo{
+  width: 150px;
+  height: 150px;
+}
   .Contenedor {
     perspective: 60rem;
     display: grid;

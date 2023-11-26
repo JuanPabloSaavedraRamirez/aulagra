@@ -45,14 +45,14 @@
     <h1>¿Quienes somos?</h1>
     <h2 class="texto">Aula Gramma es aprendizaje en curso</h2>
     <h3 class="texto">Nuestro objetivo:</h3>
-    <h3 class="texto">Ser un espacio para la creación y el conocimiento con base en la lectura y la escritura, teoría y
+    <h2 class="texto">Ser un espacio para la creación y el conocimiento con base en la lectura y la escritura, teoría y
         práctica en cada sesión y ambas aplicadas con la experiencia de nuestros docentes. Nuestro
         propósito es fortalecer la expresión literaria y artística desde un emprendimiento creativo y abierto
         a todas las edades. Aula Gramma está en permanente evolución ofreciendo talleres novedosos y
         cursos con metodologías modernas, sin olvidar la importancia de la cultura literaria clásica.
         Aula Gramma también se enfoca en los emprendedores y ofrece para ellos cursos innovadores y
         prácticos que los ayudarán a establecer las bases de sus negocios de una forma sencilla,
-        profesional y rentable.</h3>
+        profesional y rentable.</h2>
         
     <br><br><br><br>
     <!-- Formulario -->

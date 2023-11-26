@@ -103,6 +103,8 @@ img{
   grid-row-end: 6;
   align-items: center;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 .CursosP1:hover{
   cursor: pointer;
@@ -115,6 +117,8 @@ img{
   grid-row-end: 6;
   align-items: center;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 .CursosP2:hover{
   cursor: pointer;
@@ -127,6 +131,8 @@ img{
   grid-row-end: 12;
   align-items: center;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 .CursosP3:hover{
   cursor: pointer;
@@ -139,6 +145,8 @@ img{
   grid-row-end: 12;
   align-items: center;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 .CursosP4:hover{
   cursor: pointer;
@@ -151,6 +159,8 @@ img{
   flex-direction: column;
   margin-top: 10px;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 img{
   width: 420px;
@@ -158,6 +168,7 @@ img{
   grid-column-end: 15;
   text-align: center;
   grid-row-start: 2;
+  border-radius: 10px;
 }
 
 .tema{
@@ -183,6 +194,7 @@ button {
     line-height: normal;
     overflow: visible;
     padding: 0;
+    border-radius: 10px;
   }
 
 @media (max-width: 600px){
@@ -206,6 +218,8 @@ button {
   grid-row-end: 9;
   align-items: center;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 .CursosP1:hover{
   cursor: pointer;
@@ -218,6 +232,8 @@ button {
   grid-row-end: 20;
   align-items: center;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 .CursosP2:hover{
   cursor: pointer;
@@ -230,6 +246,8 @@ button {
   grid-row-end: 31;
   align-items: center;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 .CursosP3:hover{
   cursor: pointer;
@@ -242,6 +260,8 @@ button {
   grid-row-end: 42;
   align-items: center;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 .CursosP4:hover{
   cursor: pointer;
@@ -254,9 +274,12 @@ button {
   flex-direction: column;
   margin-top: 0;
   background-color: #EDE8EC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(80, 80, 80, 0.75);
 }
 img{
   width: 300px;
+  border-radius: 10px;
 }
 
 .tema{

@@ -5,7 +5,9 @@
     <div class="nav-bar">
         <div class="logo">
             <img src="/Logo2.png" alt="" class="ILogo">
+            
         </div>
+        <h1 class="Des">Talleres y Cursos</h1>
         
         <div>
             <nav class="Routes">
@@ -51,7 +53,10 @@
 </template>
 
 <style scoped>
-
+    .Des{
+        font-size: 60px;
+        padding-right: 600px;
+    }
     .ILogo{
         width: 95px;
         height: 95px;
@@ -95,7 +100,10 @@
     }
 
     @media (max-width: 600px){
-
+        .Des{
+        font-size: 10px;
+        padding-right: 20px;
+    }
     .ILogo{
         width: 60px; /* Ajuste el tamaño según tus preferencias */
         height: 60px; /* Ajuste el tamaño según tus preferencias */
