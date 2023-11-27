@@ -34,6 +34,9 @@ import PieDePagina from '../components/PieDePagina.vue';
 
 
 <style scoped>
+h2{
+  color: #8f8edd;
+}
 .logo{
   width: 350px;
   height: 300px;
@@ -88,6 +91,9 @@ import PieDePagina from '../components/PieDePagina.vue';
   }
 
   @media (max-width: 600px){
+    h2{
+      color: #bcc6eb;
+    }
     .logo{
   width: 150px;
   height: 150px;
