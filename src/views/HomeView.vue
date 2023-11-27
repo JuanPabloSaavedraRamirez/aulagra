@@ -82,10 +82,8 @@ import PieDePagina from '../components/PieDePagina.vue';
     grid-row-start: 6;
     margin-top: 70px;
     position: absolute;
-    color: #0e1438;
   }
   body{
-    color: #0e1438;
     background-image: url(/FondoP2.jpg);
   }
 
@@ -150,10 +148,6 @@ import PieDePagina from '../components/PieDePagina.vue';
     position: absolute;
     color: #0e1438;
     
-  }
-
-  body {
-    color: #0e1438;
   }
 
   }

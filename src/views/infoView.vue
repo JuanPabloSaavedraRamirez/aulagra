@@ -80,6 +80,7 @@
   .texto{
     margin-left: 200px;
     margin-right: 200px;
+    background-color: #bcc6eb;
   }
   .Formulario {
     display: grid;
