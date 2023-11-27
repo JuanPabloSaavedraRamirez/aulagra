@@ -105,14 +105,14 @@
         padding-right: 20px;
     }
     .ILogo{
-        width: 60px; /* Ajuste el tamaño según tus preferencias */
-        height: 60px; /* Ajuste el tamaño según tus preferencias */
+        width: 60px; 
+        height: 60px; 
     }
 
     .nav-bar{
         position: sticky;
         text-align: center;
-        height: 80px; /* Ajuste la altura según tus preferencias */
+        height: 80px; 
         max-width: 600px;
         width: 100%;
         top: 0;
@@ -121,7 +121,7 @@
         justify-content: space-between;
         align-items: center;
         z-index: 100; 
-        margin: 0 auto; /* Centra el contenido dentro de la anchura máxima */
+        margin: 0 auto; 
     }
 
     .logo{
@@ -134,7 +134,7 @@
     }
     .Route{
         height: 100%;
-        width: 80px; /* Ajuste la anchura según tus preferencias */
+        width: 80px; 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -145,7 +145,7 @@
     }
 
     .Route p{
-        font-size: 12px; /* Ajuste el tamaño de fuente según tus preferencias */
+        font-size: 12px; 
         color: #0e1438;
     }
 
